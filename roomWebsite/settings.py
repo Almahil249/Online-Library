@@ -89,10 +89,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
     }
 }
-
-DATABASES["default"] = dj_database_url.parse("postgres://books_db_exzt_user:YDGBTRQ6jXAxEuXzM6Q3v7FlfogPNkGA@dpg-cp76c0vsc6pc73a4uc7g-a.oregon-postgres.render.com/books_db_exzt")
-
-
+DATABASES["default"] = dj_database_url.parse("postgres://default:0UntTpMWSBm7@ep-still-bird-a48m9jzi.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require")
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
